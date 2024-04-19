@@ -1,0 +1,123 @@
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+    color: #004C69;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 20px;
+    background-color: #004C69;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    color: #004C69;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0ca8cb;
+}
+
+/* Search section styles */
+.search-section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.search-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #004C69; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+}
+
+h1 {
+    margin: 0; 
+    font-size: 24px; /* Font size */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 100px;
+    padding-left: 90px;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* style.css */
+/* Footer styles */
+footer {
+    background-color:#004C69; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Align text to the center */
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 5px 0; /* Adjust margin for paragraphs */
+}
+
+footer em {
+    font-style: italic; /* Italicize text */
+}
+
